@@ -56,6 +56,7 @@ public class SpringApplet extends JApplet {
         stala.info();
     }
     public void paint(Graphics g) {
+        //rysowanie na pow appletu, zadanie na bdb
         setSize(800,600);
         Graphics2D g2 = (Graphics2D) g;
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
